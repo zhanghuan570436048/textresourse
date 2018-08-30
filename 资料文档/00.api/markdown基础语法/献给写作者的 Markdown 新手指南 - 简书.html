@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://www.jianshu.com/p/q81RER -->
+<html><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script src="./献给写作者的 Markdown 新手指南 - 简书_files/push.js.下载"></script><script async="" src="./献给写作者的 Markdown 新手指南 - 简书_files/analytics.js.下载"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1255494d3a","applicationID":"15702971","transactionName":"e1daR0JWVV9RER9ZWkxdRxxDUVZE","queueTime":4,"applicationTime":74,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="description" content="「简书」作为一款「写作软件」在诞生之初就支持了 Markdown，Markdown 是一种「电子邮件」风格的「标记语言」，我们强烈推荐所有写作者学习和掌握该语言。为什么？可以参考: 『为什么作家应该用 Markdown 保存自己的文稿』。 『Markdown写作浅谈』 在此，我们总结 Markdown 的优点如下： 纯文本，所以兼容性极强，可以用所有文本编辑器打开。 让你专注于文字而不是排版...">
+  <meta property="wb:webmaster" content="294ec9de89e7fadb">
+  <meta property="qc:admins" content="104102651453316562112116375">
+  <meta property="qc:admins" content="11635613706305617">
+  <meta property="qc:admins" content="1163561616621163056375">
+  <meta name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4">
+  <meta name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI">
+  <meta http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/p/q81RER">
+    <!--  Meta for Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=888237539, app-argument=jianshu://notes/1624">
+  <!-- End -->
+
+  <!--  Meta for Twitter Card -->
+  <meta content="summary" property="twitter:card">
+  <meta content="@jianshucom" property="twitter:site">
+  <meta content="献给写作者的 Markdown 新手指南" property="twitter:title">
+  <meta content="「简书」作为一款「写作软件」在诞生之初就支持了 Markdown，Markdown 是一种「电子邮件」风格的「标记语言」，我们强烈推荐所有写作者学习和掌握该语言。为什么？可以参考: 『为什么作家应该用 Markdown 保存自己的文稿』。 『Markdown写作浅谈』 在此，我们总结 Markdown 的优点如下： 纯文本，所以兼容性极强，可以用所有文本编辑器打开。 让你专注于文字而不是排版。 格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书等。 Markdown 的标记语法有极好的可读性。 当然，我们既然如此推崇 Markdown ，也必定会教会你使用 Mark..." property="twitter:description">
+  <meta content="http://www.jianshu.com/p/q81RER" property="twitter:url">
+  <!-- End -->
+
+  <!--  Meta for OpenGraph -->
+  <meta property="fb:app_id" content="865829053512461">
+  <meta property="og:site_name" content="简书">
+  <meta property="og:title" content="献给写作者的 Markdown 新手指南">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.jianshu.com/p/q81RER">
+  <meta property="og:description" content="「简书」作为一款「写作软件」在诞生之初就支持了 Markdown，Markdown 是一种「电子邮件」风格的「标记语言」，我们强烈推荐所有写作者学习和掌握该语言。为什么？可以参考: 『为什么作家...">
+  <!-- End -->
+
+  <!--  Meta for Facebook Applinks -->
+  <meta property="al:ios:url" content="jianshu://notes/1624">
+  <meta property="al:ios:app_store_id" content="888237539">
+  <meta property="al:ios:app_name" content="简书">
+
+  <meta property="al:android:url" content="jianshu://notes/1624">
+  <meta property="al:android:package" content="com.jianshu.haruki">
+  <meta property="al:android:app_name" content="简书">
+  <!-- End -->
+
+  <title>献给写作者的 Markdown 新手指南 - 简书</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="DyKwuG9D0XdjWknmOrh4ReDB76rA7tqYMU4BxzEi2nHRyqblsH9tAxgGf/h31v4IC8CvA6CWTynLaeQsHhIRvQ==">
+  <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" media="all" href="./献给写作者的 Markdown 新手指南 - 简书_files/web-e5ec8a5ff8ca2842de35.css">
+  
+  <link rel="stylesheet" media="all" href="./献给写作者的 Markdown 新手指南 - 简书_files/entry-e5ec8a5ff8ca2842de35.css">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if IE 8]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]-->
+  <!--[if lt IE 9]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]-->
+  <link href="http://baijii-common.b0.upaiyun.com/icons/favicon.ico" rel="icon">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/57.png" sizes="57x57">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/72.png" sizes="72x72">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/76.png" sizes="76x76">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/114.png" sizes="114x114">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/120.png" sizes="120x120">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/apple-touch-icons/152.png" sizes="152x152">
+</head>
+
+  <body lang="zh-CN" class="reader-black-font">
+    <!-- 全局顶部导航栏 -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="width-limit">
+    <!-- 左上方 Logo -->
+    <a class="logo" href="http://www.jianshu.com/"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/logo-58fd04f6f0de908401aa561cda6a0688.png" alt="Logo"></a>
+
+    <!-- 右上角 -->
+      <!-- 登录显示写文章 -->
+      <a class="btn write-btn" target="_blank" href="http://www.jianshu.com/writer#/">
+        <i class="iconfont ic-write"></i>写文章
+</a>
+    <!-- 如果用户登录，显示下拉菜单 -->
+      <div class="user">
+        <div data-hover="dropdown">
+          <a class="avatar" href="http://www.jianshu.com/u/cb39b4d30f5c"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg" alt="9"></a>
+        </div>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="http://www.jianshu.com/u/cb39b4d30f5c">
+              <i class="iconfont ic-navigation-profile"></i><span>我的主页</span>
+</a>          </li>
+          <li>
+            <!-- TODO bookmarks_path -->
+            <a href="http://www.jianshu.com/bookmarks">
+              <i class="iconfont ic-navigation-mark"></i><span>收藏的文章</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/users/cb39b4d30f5c/liked_notes">
+              <i class="iconfont ic-navigation-like"></i><span>喜欢的文章</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/wallet">
+              <i class="iconfont ic-navigation-wallet"></i><span>我的钱包</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/settings">
+              <i class="iconfont ic-navigation-settings"></i><span>设置</span>
+</a>          </li>
+          <li>
+            <a href="http://www.jianshu.com/contact">
+              <i class="iconfont ic-navigation-feedback"></i><span>帮助与反馈</span>
+</a>          </li>
+          <li>
+            <a rel="nofollow" data-method="delete" href="http://www.jianshu.com/sign_out">
+              <i class="iconfont ic-navigation-signout"></i><span>退出</span>
+</a>          </li>
+        </ul>
+      </div>
+
+    <div class="style-mode"><a class="style-mode-btn"><i class="iconfont ic-navigation-mode"></i></a> <div class="popover-modal" style="left: 0px; display: none;"><div class="meta"><i class="iconfont ic-navigation-night"></i><span>夜间模式</span></div> <div class="switch day-night-group"><a class="switch-btn">开</a> <a class="switch-btn active">关</a></div> <hr> <div class="switch font-family-group"><a class="switch-btn font-song">宋体</a> <a class="switch-btn font-hei active">黑体</a></div> <div class="switch"><a class="switch-btn active">简</a> <a class="switch-btn">繁</a></div></div></div>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+            <li class="">
+              <a href="http://www.jianshu.com/">
+                <span class="menu-text">发现</span><i class="iconfont ic-navigation-discover menu-icon"></i>
+</a>            </li>
+            <li class="">
+              <a href="http://www.jianshu.com/subscriptions">
+                <span class="menu-text">关注</span><i class="iconfont ic-navigation-follow menu-icon"></i>
+</a>            </li>
+            <li class="notification"><a data-hover="dropdown" href="http://www.jianshu.com/notifications" class="notification-btn"><span class="menu-text">消息</span> <i class="iconfont ic-navigation-notification menu-icon"></i> <!----> <!----></a> <ul class="dropdown-menu"><li><a href="http://www.jianshu.com/notifications#/comments"><i class="iconfont ic-comments"></i> <span>评论</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/chats"><i class="iconfont ic-chats"></i> <span>简信</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/requests"><i class="iconfont ic-requests"></i> <span>投稿请求</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/likes"><i class="iconfont ic-likes"></i> <span>喜欢和赞</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/follows"><i class="iconfont ic-follows"></i> <span>关注</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/money"><i class="iconfont ic-money"></i> <span>赞赏</span> <!----></a></li><li><a href="http://www.jianshu.com/notifications#/others"><i class="iconfont ic-others"></i> <span>其他消息</span> <!----></a></li></ul></li>
+          <li class="search">
+            <form target="_blank" action="http://www.jianshu.com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+              <input type="text" name="q" id="q" value="" placeholder="搜索" class="search-input">
+              <a class="search-btn" href="javascript:void(null)"><i class="iconfont ic-search"></i></a>
+              <!-- <div id="navbar-trending-search"></div> -->
+</form>          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+<div class="note">
+  <div class="post">
+    <div class="article">
+        <h1 class="title">献给写作者的 Markdown 新手指南</h1>
+
+        <!-- 作者区域 -->
+        <div class="author">
+          <a class="avatar" href="http://www.jianshu.com/u/yZq3ZV">
+            <img src="./献给写作者的 Markdown 新手指南 - 简书_files/0eeb76652869.png" alt="144">
+</a>          <div class="info">
+            <span class="tag">作者</span>
+            <span class="name"><a href="http://www.jianshu.com/u/yZq3ZV">简书</a></span>
+            <!-- 关注用户按钮 -->
+            <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+            <!-- 文章数据信息 -->
+            <div class="meta">
+              <span class="publish-time">2013.04.22 22:02</span>
+              <span class="wordage">字数 1478</span>
+            <span class="views-count">阅读 388307</span><span class="comments-count">评论 458</span><span class="likes-count">喜欢 3205</span></div>
+          </div>
+          <!-- 如果是当前作者，加入编辑按钮 -->
+        </div>
+        <!-- -->
+
+        <!-- 文章内容 -->
+        <div class="show-content">
+          <p><a href="http://www.jianshu.com/" target="_blank">「简书」</a>作为一款「写作软件」在诞生之初就支持了 Markdown，Markdown 是一种「电子邮件」风格的「标记语言」，我们强烈推荐所有写作者学习和掌握该语言。为什么？可以参考:</p>
+<ul>
+<li>
+<a href="http://www.jianshu.com/p/qqGjLN" target="_blank">『为什么作家应该用 Markdown 保存自己的文稿』</a>。</li>
+<li><a href="http://www.jianshu.com/p/PpDNMG" target="_blank">『Markdown写作浅谈』</a></li>
+</ul>
+<p>在此，我们总结 Markdown 的优点如下：</p>
+<ul>
+<li>纯文本，所以兼容性极强，可以用所有文本编辑器打开。</li>
+<li>让你专注于文字而不是排版。</li>
+<li>格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书等。</li>
+<li>Markdown 的标记语法有极好的可读性。</li>
+</ul>
+<p>当然，我们既然如此推崇 Markdown ，也必定会教会你使用 Markdown ，这也是本文的目的所在。不过，虽然 <a href="http://wowubuntu.com/markdown/" target="_blank">Markdown 的语法</a>已经足够简单，但是现有的 Markdown 语法说明更多的是写给 web 从业者看的，对于很多写作者来说，学习起来效率很低，现在，我们特地为写作者量身定做本指南，从写作者的实际需求出发，介绍写作者真正实用的常用格式，深入浅出、图文并茂地让您迅速掌握 Markdown 语法。</p>
+<p>为了使您更好地学习，我们建议您登录<a href="http://www.%20jianshu.com/" target="_blank">「简书」</a>，将您的编辑器切换至 Markdown 编辑器，新建一篇空白笔记，然后点击右上角的预览模式：</p>
+<div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-b7a1aa59aaca63e4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-b7a1aa59aaca63e4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div><p><br>此时，您的界面应当如下图所示，左侧为编辑区域，右侧为预览区域，您在左侧输入 Markdown 语法的文本，右侧会立即帮您呈现最终结果，好了，让我们开始学习吧~</p>
+<div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-05f6819ea5aa4fdd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-05f6819ea5aa4fdd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<h2>标题</h2>
+<p>这是最为常用的格式，在平时常用的的文本编辑器中大多是这样实现的：输入文本、选中文本、设置标题格式。</p>
+<p>而在 Markdown 中，你只需要在文本前面加上 <code>#</code> 即可，同理、你还可以增加二级标题、三级标题、四级标题、五级标题和六级标题，总共六级，只需要增加 <code>#</code> 即可，标题字号相应降低。例如：</p>
+<pre class="hljs clean"><code class="clean"># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题</code></pre>
+<p><em>注：<code>#</code> 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。</em></p>
+<p><em>你可以你的编辑器中尝试输入这六级标题，可以参考下方的截图：</em></p>
+<div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-7424a9a21a2cb81b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-7424a9a21a2cb81b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption">一级标题至六级标题</div>
+</div>
+<h2>列表</h2>
+<p>列表格式也很常用，在 Markdown 中，你只需要在文字前面加上 <code>-</code> 就可以了，例如：</p>
+<pre class="hljs haml"><code class="haml">-<span class="ruby"> 文本<span class="hljs-number">1</span>
+</span>-<span class="ruby"> 文本<span class="hljs-number">2</span>
+</span>-<span class="ruby"> 文本<span class="hljs-number">3</span></span></code></pre>
+<p>如果你希望有序列表，<br>也可以在文字前面加上 <code>1.</code> <code>2.</code> <code>3.</code> 就可以了，例如：</p>
+<pre class="hljs lsl"><code class="lsl"><span class="hljs-number">1.</span> 文本<span class="hljs-number">1</span>
+<span class="hljs-number">2.</span> 文本<span class="hljs-number">2</span>
+<span class="hljs-number">3.</span> 文本<span class="hljs-number">3</span></code></pre>
+<p><em>注：<code>-</code>、<code>1.</code>和文本之间要保留一个字符的空格。</em></p>
+<p><em>列表案例截图如下：</em></p>
+<div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-8ccbfed8ce487368.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-8ccbfed8ce487368.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<h2> 链接和图片</h2>
+
+<p>在 Markdown 中，插入链接不需要其他按钮，你只需要使用 <code>[显示文本](链接地址)</code> 这样的语法即可，例如：</p>
+<pre class="hljs markdown"><code class="markdown">[<span class="hljs-string">简书</span>](<span class="hljs-link">http://www.jianshu.com</span>)</code></pre>
+<p>在 Markdown 中，插入图片不需要其他按钮，你只需要使用 <code>![](图片链接地址)</code> 这样的语法即可，例如：</p>
+<pre class="hljs awk"><code class="awk">![](http:<span class="hljs-regexp">//u</span>pload-images.jianshu.io<span class="hljs-regexp">/upload_images/</span><span class="hljs-number">259</span>-<span class="hljs-number">0</span>ad0d0bfc1c608b6.jpg?imageMogr2<span class="hljs-regexp">/auto-orient/</span>strip%<span class="hljs-number">7</span>CimageView2<span class="hljs-regexp">/2/</span>w<span class="hljs-regexp">/1240)</span></code></pre>
+<p><em>注：插入图片的语法和链接的语法很像，只是前面多了一个 <code>！</code>。</em></p>
+<p><em>插入链接和图片的案例截图：</em></p>
+<div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-90ac0f366310f464.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-90ac0f366310f464.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<h2>引用</h2>
+<p>在我们写作的时候经常需要引用他人的文字，这个时候引用这个格式就很有必要了，在 Markdown 中，你只需要在你希望引用的文字前面加上 <code>&gt;</code> 就好了，例如：</p>
+<pre class="hljs markdown"><code class="markdown"><span class="hljs-quote">&gt; 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</span></code></pre>
+<p><em>注：<code>&gt;</code> 和文本之间要保留一个字符的空格。</em></p>
+<p>最终显示的就是：</p>
+<blockquote><p>一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</p></blockquote>
+<p><em>引用的案例截图：</em><br></p><div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-438c3424cfbfb029.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-438c3424cfbfb029.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<h2>粗体和斜体</h2>
+<p>Markdown 的粗体和斜体也非常简单，用两个 <code>*</code> 包含一段文本就是粗体的语法，用一个 <code>*</code> 包含一段文本就是斜体的语法。例如：</p>
+<pre class="hljs markdown"><code class="markdown"> <span class="hljs-emphasis">*一盏灯*</span>， 一片昏黄；<span class="hljs-strong">**一简书**</span>， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</code></pre>
+<p>最终显示的就是下文，其中「一盏灯」是斜体，「一简书」是粗体：</p>
+<p> <em>一盏灯</em>， 一片昏黄；<strong>一简书</strong>， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</p>
+<p><em>粗体和斜体的案例截图：</em><br></p><div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-6a74e417a86ac97f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-6a74e417a86ac97f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<h2>代码引用</h2>
+<p>需要引用代码时，如果引用的语句只有一段，不分行，可以用 ` 将语句包起来。<br>如果引用的语句为多行，可以将```置于这段代码的首行和末行。<br><em>代码引用的案例截图：</em><br></p><div class="image-package">
+<img src="http://upload-images.jianshu.io/upload_images/259-dcf737a97e71cd73.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" data-original-src="http://upload-images.jianshu.io/upload_images/259-dcf737a97e71cd73.jpg?imageMogr2/auto-orient/strip%7CimageView2/2" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<h2>表格</h2>
+<p>相关代码：</p>
+<pre class="hljs ruby"><code class="ruby"><span class="hljs-params">| Tables        |</span> Are           <span class="hljs-params">| Cool  |</span>
+<span class="hljs-params">| ------------- |</span><span class="hljs-symbol">:-------------</span><span class="hljs-symbol">:|</span> -----<span class="hljs-symbol">:|</span>
+<span class="hljs-params">| col 3 is      |</span> right-aligned <span class="hljs-params">| $1600 |</span>
+<span class="hljs-params">| col 2 is      |</span> centered      <span class="hljs-params">|   $12 |</span>
+<span class="hljs-params">| zebra stripes |</span> are neat      <span class="hljs-params">|    $1 |</span></code></pre>
+<p>显示效果：</p>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<p><br>相关代码：</p>
+<pre class="hljs gherkin"><code class="gherkin">dog |<span class="hljs-string"> bird </span>|<span class="hljs-string"> cat
+----</span>|<span class="hljs-string">------</span>|<span class="hljs-string">----
+foo </span>|<span class="hljs-string"> foo  </span>|<span class="hljs-string"> foo
+bar </span>|<span class="hljs-string"> bar  </span>|<span class="hljs-string"> bar
+baz </span>|<span class="hljs-string"> baz  </span>|<span class="hljs-string"> baz</span></code></pre>
+<p>显示效果：</p>
+<table>
+<thead>
+<tr>
+<th>dog</th>
+<th>bird</th>
+<th>cat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>foo</td>
+<td>foo</td>
+<td>foo</td>
+</tr>
+<tr>
+<td>bar</td>
+<td>bar</td>
+<td>bar</td>
+</tr>
+<tr>
+<td>baz</td>
+<td>baz</td>
+<td>baz</td>
+</tr>
+</tbody>
+</table>
+
+<h2>显示链接中带括号的图片</h2>
+<div class="image-package">
+<img src="./献给写作者的 Markdown 新手指南 - 简书_files/gif.latex" data-original-src="http://latex.codecogs.com/gif.latex?%5Cprod%20%5C(n_%7Bi%7D%5C)+1" style="cursor: zoom-in;"><br><div class="image-caption"></div>
+</div>
+<p>代码如下:</p>
+<pre class="hljs less"><code class="less">!<span class="hljs-selector-attr">[]</span><span class="hljs-selector-attr">[1]</span>
+<span class="hljs-selector-attr">[1]</span>: <span class="hljs-selector-tag">http</span>:<span class="hljs-comment">//latex.codecogs.com/gif.latex?\prod%20\(n_{i}\)+1</span></code></pre>
+<h2>结语</h2>
+<p>以上几种格式是比较常用的格式，所以我们针对这些语法做了比较详细的说明。除这些之外，Markdown 还有其他语法，如想了解和学习更多，可以参考这篇<a href="http://wowubuntu.com/markdown/" target="_blank">『Markdown 语法说明』</a>。</p>
+<p>强烈建议您现在就立马用 Markdown 写一篇文章吧，体会一下 Markdown 的优雅之处！</p>
+<p>最后，希望我们的指南可以帮助到您，也希望<a href="http://www.jianshu.com/" target="_blank">「简书」</a>能够成为您书写 Markdown 的最佳选择。</p>
+
+        </div>
+        <!--  -->
+
+        <div class="show-foot">
+          <a class="notebook" href="http://www.jianshu.com/nb/547">
+            <i class="iconfont ic-search-notebook"></i> <span>简书帮助中心</span>
+</a>          <div class="copyright" data-toggle="tooltip" data-html="true" data-original-title="转载请联系作者获得授权，并标注“简书作者”。">
+            © 著作权归作者所有
+          </div>
+          <div class="modal-wrap" data-report-note="">
+            <a id="report-modal">举报文章</a>
+          </div>
+        </div>
+    </div>
+
+    <!-- 文章底部作者信息 -->
+        <div class="follow-detail">
+          <div class="info">
+            <a class="avatar" href="http://www.jianshu.com/u/yZq3ZV">
+              <img src="./献给写作者的 Markdown 新手指南 - 简书_files/0eeb76652869.png" alt="144">
+</a>            <a class="btn btn-success follow"><i class="iconfont ic-follow"></i><span>关注</span></a>
+            <a class="title" href="http://www.jianshu.com/u/yZq3ZV">简书</a>
+          <p>写了 303467 字，被 29863 人关注，获得了 25156 个喜欢</p></div>
+            <div class="signature">
+              <span>个人简介</span>
+              <span>简书官号，微信公众号 jianshuio ，每天推送新鲜好内容～
+
+下...</span>
+            </div>
+        </div>
+
+      <div class="support-author"><p>您的鼓励是我们前进的动力！</p> <div class="btn btn-pay">赞赏支持</div> <div class="supporter"><ul class="support-list"><li><a target="_blank" href="http://www.jianshu.com/u/673e44ddd6fb" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/c95710fc6b4d.jpeg"></a></li><li><a target="_blank" href="http://www.jianshu.com/u/33bba97eee97" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/a3a92a46888b"></a></li><li><a target="_blank" href="http://www.jianshu.com/u/fa65c894d0c8" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/bca557ed2336.jpg"></a></li><li><a target="_blank" href="http://www.jianshu.com/u/b6ac5a3c8b5f" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/c4bac7e10170"></a></li><li><a target="_blank" href="http://www.jianshu.com/u/12a54b714eb3" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/1994327abb79.JPG"></a></li><li><a target="_blank" href="http://www.jianshu.com/u/f8b929d5a9f3" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/5e28029d2ac7.jpg"></a></li><li><a target="_blank" href="http://www.jianshu.com/u/7d11fa72f663" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/4b6ffeed4aa3.jpg"></a></li></ul> <span id="reward_user">等12人</span></div> <!----> <!----></div>
+
+    <div class="meta-bottom">
+      <div class="like"><div class="btn like-group"><div class="btn-like"><a><i class="iconfont ic-like"></i>喜欢</a></div> <div class="modal-wrap"><a>3205</a></div></div> <!----></div>
+      <div class="share-group">
+        <a class="share-circle" data-action="weixin-share" data-toggle="tooltip" data-original-title="分享到微信">
+          <i class="iconfont ic-wechat"></i>
+        </a>
+        <a class="share-circle" data-toggle="tooltip" href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f=&#39;http://v.t.sina.com.cn/share/share.php?appkey=1881139527&#39;,u=z||d.location,p=[&#39;&amp;url=&#39;,e(u),&#39;&amp;title=&#39;,e(t||d.title),&#39;&amp;source=&#39;,e(r),&#39;&amp;sourceUrl=&#39;,e(l),&#39;&amp;content=&#39;,c||&#39;gb2312&#39;,&#39;&amp;pic=&#39;,e(p||&#39;&#39;)].join(&#39;&#39;);function%20a(){if(!window.open([f,p].join(&#39;&#39;),&#39;mb&#39;,[&#39;toolbar=0,status=0,resizable=1,width=440,height=430,left=&#39;,(s.width-440)/2,&#39;,top=&#39;,(s.height-430)/2].join(&#39;&#39;)))u.href=[f,p].join(&#39;&#39;);};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,&#39;&#39;,&#39;&#39;,&#39;http://cwb.assets.jianshu.io/notes/images/1624/weibo/image_ca1f9403dd1d.jpg&#39;, &#39;推荐 @简书 的文章《献给写作者的 Markdown 新手指南》（ 分享自 @简书 ）&#39;,&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo&#39;,&#39;页面编码gb2312|utf-8默认gb2312&#39;));" data-original-title="分享到微博">
+          <i class="iconfont ic-weibo"></i>
+        </a>
+          <a class="share-circle" data-toggle="tooltip" href="http://cwb.assets.jianshu.io/notes/images/1624/weibo/image_ca1f9403dd1d.jpg" target="_blank" data-original-title="下载长微博图片">
+            <i class="iconfont ic-picture"></i>
+          </a>
+        <a class="share-circle more-share" tabindex="0" data-toggle="popover" data-placement="top" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="
+          &lt;ul class=&quot;share-list&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone&#39;)+&#39;&amp;title=&#39;+e(&#39;推荐 简书 的文章《献给写作者的 Markdown 新手指南》&#39;),x=function(){if(!window.open(r,&#39;qzone&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-zone&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://twitter.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter&#39;)+&#39;&amp;text=&#39;+e(&#39;推荐 简书 的文章《献给写作者的 Markdown 新手指南》（ 分享自 @jianshucom ）&#39;)+&#39;&amp;related=&#39;+e(&#39;jianshucom&#39;),x=function(){if(!window.open(r,&#39;twitter&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-twitter&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook&#39;,x=function(){if(!window.open(r,&#39;facebook&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-facebook&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://plus.google.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus&#39;),x=function(){if(!window.open(r,&#39;google_plus&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-google&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:&#39;&#39;,r=&#39;http://www.douban.com/recommend/?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban&#39;)+&#39;&amp;title=&#39;+e(&#39;献给写作者的 Markdown 新手指南&#39;)+&#39;&amp;sel=&#39;+e(s)+&#39;&amp;v=1&#39;,x=function(){if(!window.open(r,&#39;douban&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r+&#39;&amp;r=1&#39;};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-douban&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        " data-original-title="" title="">更多分享</a>
+      </div>
+    </div>
+    <div><div id="comment-list" class="comment-list"><div><form class="new-comment"><a class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg"></a> <textarea placeholder="写下你的评论..."></textarea> <!----></form></div> <div id="normal-comment-list" class="normal-comment-list"><div><div><div class="top"><span>458条评论</span> <a class="author-only">只看作者</a> <a class="close-btn" style="display: none;">关闭评论</a> <div class="pull-right"><a class="active">按喜欢排序</a><a class="">按时间正序</a><a class="">按时间倒序</a></div></div></div> <!----> <!----> <div id="comment-740" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/3691468e72f7" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/92b0832751b8"></a> <div class="info"><a href="http://www.jianshu.com/u/3691468e72f7" target="_blank" class="name">郝显</a> <!----> <div class="meta"><span>2楼 · 2013.12.22 22:34</span></div></div></div> <div class="comment-wrap"><p>“将您的编辑器切换至 Markdown 编辑器，新建一篇空白笔记，然后点击右上角的预览模式”<br>木有找到切换按钮，右上角只有一个“写作模式”。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>4人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-485648" class="sub-comment"><p><a href="http://www.jianshu.com/u/538cc0206202" target="_blank">猫爪</a>：
+          <span><a href="http://www.jianshu.com/users/3691468e72f7" class="maleskine-author" target="_blank" data-user-slug="3691468e72f7">@郝显</a> 就看不到 那个 Markdown 编辑的地方</span></p> <div class="sub-tool-group"><span>2015.08.12 00:50</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-738271" class="sub-comment"><p><a href="http://www.jianshu.com/u/538cc0206202" target="_blank">猫爪</a>：
+          <span><a href="http://www.jianshu.com/users/3691468e72f7" class="maleskine-author" target="_blank" data-user-slug="3691468e72f7">@郝显</a> 真心没看到切换的，我设置了切换，但还是富文本</span></p> <div class="sub-tool-group"><span>2015.10.14 16:56</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-738297" class="sub-comment"><p><a href="http://www.jianshu.com/u/538cc0206202" target="_blank">猫爪</a>：
+          <span><a href="http://www.jianshu.com/users/3691468e72f7" class="maleskine-author" target="_blank" data-user-slug="3691468e72f7">@郝显</a> 第二次想用简书写，为什么不做一个按钮切换呢 </span></p> <div class="sub-tool-group"><span>2015.10.14 17:02</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <span class="line-warp">
+          还有18条评论，
+          <a>展开查看</a></span> <!----> <!----></div> <!----></div></div><div id="comment-1717" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/65c33f95d107" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/1850e8928d0b"></a> <div class="info"><a href="http://www.jianshu.com/u/65c33f95d107" target="_blank" class="name">齐秋</a> <!----> <div class="meta"><span>5楼 · 2014.01.06 22:02</span></div></div></div> <div class="comment-wrap"><p>段落开头怎么空两格呢？</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>3人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-6213551" class="sub-comment"><p><a href="http://www.jianshu.com/u/a6cbf0bc2635" target="_blank">Lwenzahn</a>：
+          <span><a href="http://www.jianshu.com/users/65c33f95d107" class="maleskine-author" target="_blank" data-user-slug="65c33f95d107">@齐秋</a> 同问</span></p> <div class="sub-tool-group"><span>2016.12.06 17:50</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-6427016" class="sub-comment"><p><a href="http://www.jianshu.com/u/d47e318950c2" target="_blank">iTa_伊塔</a>：
+          <span> <a href="http://www.jianshu.com/users/65c33f95d107" class="maleskine-author" target="_blank" data-user-slug="65c33f95d107">@齐秋</a> **网**络时代，不再空格，可以首字加粗。www.baidu.com<br>其次，段首空格可以用       HTML标签来实现，</span></p> <div class="sub-tool-group"><span>2016.12.15 02:22</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-7286012" class="sub-comment"><p><a href="http://www.jianshu.com/u/7c9d98c7e383" target="_blank">华山一客</a>：
+          <span>添加<br>&amp;nsbp;&amp;nsbp;&amp;nsbp;&amp;nsbp;</span></p> <div class="sub-tool-group"><span>2017.01.17 23:05</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <!----> <!----> <!----></div> <!----></div></div><div id="comment-164866" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/3WXQPg" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/a8f4d0fe8ab8"></a> <div class="info"><a href="http://www.jianshu.com/u/3WXQPg" target="_blank" class="name">百毒</a> <!----> <div class="meta"><span>79楼 · 2015.02.15 14:45</span></div></div></div> <div class="comment-wrap"><p>列表嵌套有问题。例如：<br><br>1. XXX<br><br>- aaa<br>- bbb<br>- ccc<br><br>2. YYY<br><br>会显示为<br> <br>1. XXX<br>2. aaa<br>3. bbb<br>4. ccc<br>5. YYY</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>2人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-771" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/y3Dbcz" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/21d526846127.png"></a> <div class="info"><a href="http://www.jianshu.com/u/y3Dbcz" target="_blank" class="name">简叔</a> <!----> <div class="meta"><span>3楼 · 2013.12.23 15:19</span></div></div></div> <div class="comment-wrap"><p>@tengsex 那就说明你还是富文本编辑器，还不是markdown编辑器，去「设置」里面设置一下吧，设置好后，以后新建的文章就都是markdown编辑器了。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-532393" class="sub-comment"><p><a href="http://www.jianshu.com/u/243157a1fc2c" target="_blank">duXing</a>：
+          <span><a href="http://www.jianshu.com/users/y3Dbcz" class="maleskine-author" target="_blank" data-user-slug="y3Dbcz">@简叔</a> 如果在编辑器旁边切换就方便了~</span></p> <div class="sub-tool-group"><span>2015.08.27 17:24</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-532441" class="sub-comment"><p><a href="http://www.jianshu.com/u/y3Dbcz" target="_blank">简叔</a>：
+          <span><a href="http://www.jianshu.com/users/243157a1fc2c" class="maleskine-author" target="_blank" data-user-slug="243157a1fc2c">@duXing</a> 确实会方便很多</span></p> <div class="sub-tool-group"><span>2015.08.27 17:48</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-683831" class="sub-comment"><p><a href="http://www.jianshu.com/u/6e1435bf6c05" target="_blank">不再二的二狗子</a>：
+          <span>为啥我在设置里选择了markdown，在预览模式的时候还是不能双栏模式 <img src="./献给写作者的 Markdown 新手指南 - 简书_files/sob.png" alt=":sob:" title=":sob:" class="emoji" width="20" height="20"> </span></p> <div class="sub-tool-group"><span>2015.10.04 09:56</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <span class="line-warp">
+          还有13条评论，
+          <a>展开查看</a></span> <!----> <!----></div> <!----></div></div><div id="comment-1720" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/65c33f95d107" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/1850e8928d0b"></a> <div class="info"><a href="http://www.jianshu.com/u/65c33f95d107" target="_blank" class="name">齐秋</a> <!----> <div class="meta"><span>6楼 · 2014.01.06 22:09</span></div></div></div> <div class="comment-wrap"><p>引用那里，&gt;之后，只有带竖线的样式，没有诗歌引用那种样子……</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-3794" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/97308fd8f935" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/3db0feaf3581"></a> <div class="info"><a href="http://www.jianshu.com/u/97308fd8f935" target="_blank" class="name">dong_Dong</a> <!----> <div class="meta"><span>11楼 · 2014.01.27 17:03</span></div></div></div> <div class="comment-wrap"><p>本地图片怎么引用？地址怎么编写？</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-5431639" class="sub-comment"><p><a href="http://www.jianshu.com/u/4459eb2a6ea1" target="_blank">4459eb2a6ea1</a>：
+          <span><a href="http://www.jianshu.com/users/97308fd8f935" class="maleskine-author" target="_blank" data-user-slug="97308fd8f935">@dong_Dong</a> 可以直接拖拽的<br></span></p> <div class="sub-tool-group"><span>2016.11.07 19:52</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <!----> <!----> <!----></div> <!----></div></div><div id="comment-3799" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/yZq3ZV" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/0eeb76652869(1).png"></a> <div class="info"><a href="http://www.jianshu.com/u/yZq3ZV" target="_blank" class="name">简书</a> <span class="author-tag">作者</span> <div class="meta"><span>13楼 · 2014.01.27 17:32</span></div></div></div> <div class="comment-wrap"><p><a href="http://www.jianshu.com/users/97308fd8f935" class="maleskine-author" target="_blank" data-user-slug="97308fd8f935">@dong_Dong</a> 图片么？需要先将图片上传到图床，然后插入图片的链接才行。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-7167846" class="sub-comment"><p><a href="http://www.jianshu.com/u/ed1c98a3ee66" target="_blank">0_0</a>：
+          <span>简书Markdown编辑模式下常用语法介绍：<a href="http://www.jianshu.com/p/2d11740d66a6" rel="nofollow" target="_blank">http://www.jianshu.com/p/2d11740d66a6</a></span></p> <div class="sub-tool-group"><span>2017.01.13 15:07</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <!----> <!----> <!----></div> <!----></div></div><div id="comment-1004690" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/ab42f817b2d3" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/3-9a2bcc21a5d89e21dafc73b39dc5f582.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/ab42f817b2d3" target="_blank" class="name">janezhang</a> <!----> <div class="meta"><span>165楼 · 2015.12.09 16:45</span></div></div></div> <div class="comment-wrap"><p>怎么写有行号的代码</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-4341174" class="sub-comment"><p><a href="http://www.jianshu.com/u/86344ec5bfe7" target="_blank">afluy</a>：
+          <span><a href="http://www.jianshu.com/users/ab42f817b2d3" class="maleskine-author" target="_blank" data-user-slug="ab42f817b2d3">@janezhang</a>  <a href="http://www.jianshu.com/users/y3Dbcz" class="maleskine-author" target="_blank" data-user-slug="y3Dbcz">@简叔</a> 同问, 贴代码时可以配置是否显示行号</span></p> <div class="sub-tool-group"><span>2016.09.22 11:54</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <!----> <!----> <!----></div> <!----></div></div><div id="comment-2037373" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/c25c4eff9eeb" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/0618eddafb85.png"></a> <div class="info"><a href="http://www.jianshu.com/u/c25c4eff9eeb" target="_blank" class="name">莫x名</a> <!----> <div class="meta"><span>224楼 · 2016.04.14 11:27</span></div></div></div> <div class="comment-wrap"><p>空格的问题终于解决，，，，，，，输入法全角模式，然后空格就可以了</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-2753861" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/91d1e0dbb1ad" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/91d1e0dbb1ad" target="_blank" class="name">cherrychains</a> <!----> <div class="meta"><span>257楼 · 2016.06.14 16:44</span></div></div></div> <div class="comment-wrap"><p>《Mrakdown语法说明》链接无法打开呢。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-4799123" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/59193fe7e0b4" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/5fc326b33ea6"></a> <div class="info"><a href="http://www.jianshu.com/u/59193fe7e0b4" target="_blank" class="name">浪果果</a> <!----> <div class="meta"><span>332楼 · 2016.10.13 15:16</span></div></div></div> <div class="comment-wrap"><p>大爱</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-6032762" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/184d9cf3e988" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/963827d773bf.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/184d9cf3e988" target="_blank" class="name">苍蝇的梦</a> <!----> <div class="meta"><span>356楼 · 2016.11.29 15:28</span></div></div></div> <div class="comment-wrap"><p> <img src="./献给写作者的 Markdown 新手指南 - 简书_files/cold_sweat.png" alt=":cold_sweat:" title=":cold_sweat:" class="emoji" width="20" height="20"> <br>已经写了七篇，感觉越写越丑，想着应该是哪里不对，搜了搜，总是找到写作方法了。<br>为什么写第一篇的时候没看到这个？？？<br>不应该在显眼处提示一下吗？<br></p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-6032803" class="sub-comment"><p><a href="http://www.jianshu.com/u/184d9cf3e988" target="_blank">苍蝇的梦</a>：
+          <span><a href="http://www.jianshu.com/users/184d9cf3e988" class="maleskine-author" target="_blank" data-user-slug="184d9cf3e988">@拾荒者老大</a> 关注，收藏，喜欢都点了，下次不怕找不到了 <img src="./献给写作者的 Markdown 新手指南 - 简书_files/smile.png" alt=":smile:" title=":smile:" class="emoji" width="20" height="20"> ，有空改一下以前的</span></p> <div class="sub-tool-group"><span>2016.11.29 15:29</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <!----> <!----> <!----></div> <!----></div></div><div id="comment-6525225" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/767acde222c9" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/1f30e452ae89.jpg"></a> <div class="info"><a href="http://www.jianshu.com/u/767acde222c9" target="_blank" class="name">oldkings</a> <!----> <div class="meta"><span>368楼 · 2016.12.19 12:25</span></div></div></div> <div class="comment-wrap"><p>简书的makedown 里怎么显示红色字体</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>1人赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-796" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/3691468e72f7" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/92b0832751b8"></a> <div class="info"><a href="http://www.jianshu.com/u/3691468e72f7" target="_blank" class="name">郝显</a> <!----> <div class="meta"><span>4楼 · 2013.12.23 18:54</span></div></div></div> <div class="comment-wrap"><p><a href="http://www.jianshu.com/users/y3Dbcz" class="maleskine-author" target="_blank" data-user-slug="y3Dbcz">@简叔</a> 原来如此。哦了。谢谢叔。</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list hide"><!----> <!----></div></div><div id="comment-1803" class="comment"><div><div class="author"><a href="http://www.jianshu.com/u/xGirGp" target="_blank" class="avatar"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/TGRabbit.png"></a> <div class="info"><a href="http://www.jianshu.com/u/xGirGp" target="_blank" class="name">张七公子</a> <!----> <div class="meta"><span>7楼 · 2014.01.07 16:06</span></div></div></div> <div class="comment-wrap"><p><a href="http://www.jianshu.com/users/65c33f95d107" class="maleskine-author" target="_blank" data-user-slug="65c33f95d107">@齐秋</a> 啥叫是个引用的样子？段落首行缩进没办法，需要手打两个全角空格。谁让markdown是老外编的……</p> <div class="tool-group"><a><i class="iconfont ic-zan"></i> <span>赞</span></a> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div></div> <div class="sub-comment-list"><div id="comment-777978" class="sub-comment"><p><a href="http://www.jianshu.com/u/f5acd197b30b" target="_blank">土豆九点半</a>：
+          <span><a href="http://www.jianshu.com/users/xGirGp" class="maleskine-author" target="_blank" data-user-slug="xGirGp">@张七公子</a> 目前好像只有ulysses能做到首行缩进。</span></p> <div class="sub-tool-group"><span>2015.10.22 14:33</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-797293" class="sub-comment"><p><a href="http://www.jianshu.com/u/xGirGp" target="_blank">张七公子</a>：
+          <span><a href="http://www.jianshu.com/users/f5acd197b30b" class="maleskine-author" target="_blank" data-user-slug="f5acd197b30b">@SlowWood</a> 是的。很良心。就是贵。</span></p> <div class="sub-tool-group"><span>2015.10.26 15:45</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div><div id="comment-3084220" class="sub-comment"><p><a href="http://www.jianshu.com/u/abebb3781a8f" target="_blank">海陆热风</a>：
+          <span><a href="http://www.jianshu.com/users/xGirGp" class="maleskine-author" target="_blank" data-user-slug="xGirGp">@张七公子</a> 就是没有引号 和图上给的不一样<br></span></p> <div class="sub-tool-group"><span>2016.07.11 23:24</span> <a><i class="iconfont ic-comment"></i> <span>回复</span></a> <a class="report"><span>举报</span></a> <!----></div></div> <div class="sub-comment more-comment"><a class="add-comment-btn"><i class="iconfont ic-subcomment"></i> <span>添加新评论</span></a> <span class="line-warp">
+          还有1条评论，
+          <a>展开查看</a></span> <!----> <!----></div> <!----></div></div> <div class="comments-placeholder" style="display: none;"><div class="author"><div class="avatar"></div> <div class="info"><div class="name"></div> <div class="meta"></div></div></div> <div class="text"></div> <div class="text animation-delay"></div> <div class="tool-group"><i class="iconfont ic-zan-active"></i><div class="zan"></div> <i class="iconfont ic-list-comments"></i><div class="zan"></div></div></div></div></div> <!----> <ul class="pagination"><!---->  <li><a href="javascript:void(null)" class="active">1</a></li> <li><a>2</a></li><li><a>3</a></li><li><a>4</a></li> <li><a>下一页</a></li></ul></div></div>
+  </div>
+
+  <div class="side-tool">
+    <ul>
+      <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="回到顶部">
+        <a href="http://www.jianshu.com/p/q81RER#"><i class="iconfont ic-backtop"></i></a>
+      </li>
+        <li data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="将文章加入专题">
+          <a class="js-add-to-collection">
+            <i class="iconfont ic-addcollectionmodal"></i>
+          </a>
+        </li>
+        <li data-original-title="" title="">
+          <a data-action="toggle-bookmark-note" href="javascript:void(null);">
+            <i class="iconfont ic-mark"></i>
+</a>        </li>
+      <li data-share-note="" data-placement="left" data-toggle="tooltip" data-container="body" data-original-title="分享文章">
+        <a tabindex="0" data-toggle="popover" data-placement="left" data-html="true" data-trigger="focus" href="javascript:void(0);" data-content="
+          &lt;ul class=&quot;share-list&quot;&gt;
+            &lt;li&gt;&lt;a class data-action=&quot;weixin-share&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-weixin&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到微信&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f=&#39;http://v.t.sina.com.cn/share/share.php?appkey=1881139527&#39;,u=z||d.location,p=[&#39;&amp;url=&#39;,e(u),&#39;&amp;title=&#39;,e(t||d.title),&#39;&amp;source=&#39;,e(r),&#39;&amp;sourceUrl=&#39;,e(l),&#39;&amp;content=&#39;,c||&#39;gb2312&#39;,&#39;&amp;pic=&#39;,e(p||&#39;&#39;)].join(&#39;&#39;);function%20a(){if(!window.open([f,p].join(&#39;&#39;),&#39;mb&#39;,[&#39;toolbar=0,status=0,resizable=1,width=440,height=430,left=&#39;,(s.width-440)/2,&#39;,top=&#39;,(s.height-430)/2].join(&#39;&#39;)))u.href=[f,p].join(&#39;&#39;);};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,&#39;&#39;,&#39;&#39;,&#39;http://cwb.assets.jianshu.io/notes/images/1624/weibo/image_ca1f9403dd1d.jpg&#39;, &#39;推荐 @简书 的文章《献给写作者的 Markdown 新手指南》（ 分享自 @简书 ）&#39;,&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weibo&#39;,&#39;页面编码gb2312|utf-8默认gb2312&#39;));&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-weibo&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到微博&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;http://cwb.assets.jianshu.io/notes/images/1624/weibo/image_ca1f9403dd1d.jpg&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-picture&quot;&gt;&lt;/i&gt;&lt;span&gt;下载长微博图片&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=qzone&#39;)+&#39;&amp;title=&#39;+e(&#39;推荐 简书 的文章《献给写作者的 Markdown 新手指南》&#39;),x=function(){if(!window.open(r,&#39;qzone&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-zone&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到QQ空间&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://twitter.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=twitter&#39;)+&#39;&amp;text=&#39;+e(&#39;推荐 简书 的文章《献给写作者的 Markdown 新手指南》（ 分享自 @jianshucom ）&#39;)+&#39;&amp;related=&#39;+e(&#39;jianshucom&#39;),x=function(){if(!window.open(r,&#39;twitter&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-twitter&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://www.facebook.com/dialog/share?app_id=483126645039390&amp;display=popup&amp;href=http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=facebook&#39;,x=function(){if(!window.open(r,&#39;facebook&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-facebook&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,r=&#39;https://plus.google.com/share?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=google_plus&#39;),x=function(){if(!window.open(r,&#39;google_plus&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-google&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到Google+&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:&#39;&#39;,r=&#39;http://www.douban.com/recommend/?url=&#39;+e(&#39;http://www.jianshu.com/p/q81RER?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=douban&#39;)+&#39;&amp;title=&#39;+e(&#39;献给写作者的 Markdown 新手指南&#39;)+&#39;&amp;sel=&#39;+e(s)+&#39;&amp;v=1&#39;,x=function(){if(!window.open(r,&#39;douban&#39;,&#39;toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330&#39;))location.href=r+&#39;&amp;r=1&#39;};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()&quot;&gt;&lt;i class=&quot;social-icon-sprite social-icon-douban&quot;&gt;&lt;/i&gt;&lt;span&gt;分享到豆瓣&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        " data-original-title="" title=""><i class="iconfont ic-share"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="note-bottom"><div class="main"><div class="title">被以下专题收入，发现更多相似内容</div> <!----> <div class="include-collection"><div class="modal-wrap add-collection-wrap"><a class="add-collection"><i class="iconfont ic-follow"></i><div>我的专题</div></a></div> <a href="http://www.jianshu.com/c/cde8c245603b" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/Screenshot_from_2014-03-22_23_21_16.png"><div class="name">这篇文章的评论...</div></a><a href="http://www.jianshu.com/c/f16b3d483ec2" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/干-order.jpg"><div class="name">干货</div></a><a href="http://www.jianshu.com/c/9d08b67c056c" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/avatar.jpg"><div class="name">关于apple</div></a><a href="http://www.jianshu.com/c/9dbe7f1d23f3" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/average.png"><div class="name">web</div></a><a href="http://www.jianshu.com/c/375d39f56546" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/屏幕快照_2014-05-06_下午1.31.17.png"><div class="name">技能get</div></a><a href="http://www.jianshu.com/c/8bc954307da5" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/235032-14010ZT11144.jpg"><div class="name">知曰</div></a><a href="http://www.jianshu.com/c/d1b8ddc374ce" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/ba34f4c0a67cf07164efd22a2e6b12f6.jpg"><div class="name">工具书</div></a><a href="http://www.jianshu.com/c/a2ae34089cc2" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/11789085_143247882000_2.jpg"><div class="name">好文收藏</div></a><a href="http://www.jianshu.com/c/5c4c4cd18b94" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/u_1429594307_1269057948_fm_21_gp_0.jpg"><div class="name">简书热文</div></a><a href="http://www.jianshu.com/c/c755927ac361" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/p2189565932.jpg"><div class="name">阅读的效率</div></a><a href="http://www.jianshu.com/c/8b2a07ef91cb" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/IMG20140616_082156.jpg"><div class="name">工具</div></a><a href="http://www.jianshu.com/c/bb2c9a3de0a9" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/hVqIW4SZy4IHKEXD.jpg"><div class="name">新小奇、TED</div></a><a href="http://www.jianshu.com/c/27666afdebb4" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/things_流程图.jpg"><div class="name">产品学习</div></a><a href="http://www.jianshu.com/c/c5004f282eaf" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/4d550f25bd85641.jpg"><div class="name">非技术型IT女民工</div></a><a href="http://www.jianshu.com/c/2cfe4522ed87" class="item"><img src="./献给写作者的 Markdown 新手指南 - 简书_files/timg.jpg"><div class="name">知识青年</div></a></div> <a class="load-more">加载更多...</a></div> <!----> <!----></div>
+
+    <script type="application/json" data-name="page-data">{"user_signed_in":true,"locale":"zh-CN","os":"windows","read_mode":"day","read_font":"font2","current_user":{"id":1271214,"nickname":"我是一条夏天的鱼","slug":"cb39b4d30f5c","avatar":"http://cdn-qn0.jianshu.io/assets/default_avatar/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg","unread_counts":{"follows":0,"total":0},"has_editable_collection":false},"note_show":{"is_author":false,"is_following_author":false,"is_liked_note":false,"uuid":"e434fe7a-05dc-491d-ae06-d1d1e0f3f08f"},"note":{"id":1624,"slug":"q81RER","user_id":259,"notebook_id":547,"commentable":true,"likes_count":3205,"views_count":388307,"public_wordage":1478,"comments_count":458,"author":{"total_wordage":303467,"followers_count":29863,"total_likes_count":25156}}}</script>
+    
+    <script src="./献给写作者的 Markdown 新手指南 - 简书_files/babel-polyfill-e5ec8a5ff8ca2842de35.js.下载"></script>
+    <script src="./献给写作者的 Markdown 新手指南 - 简书_files/web-base-e5ec8a5ff8ca2842de35.js.下载"></script>
+<script src="./献给写作者的 Markdown 新手指南 - 简书_files/web-e5ec8a5ff8ca2842de35.js.下载"></script>
+    
+    <script src="./献给写作者的 Markdown 新手指南 - 简书_files/entry-e5ec8a5ff8ca2842de35.js.下载"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35169517-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<div style="display:none">
+  <script src="./献给写作者的 Markdown 新手指南 - 简书_files/z_stat.php" language="JavaScript"></script><script src="./献给写作者的 Markdown 新手指南 - 简书_files/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1258679142" target="_blank" title="站长统计">站长统计</a>
+</div>
+
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+  
+
+<!----><!----></body></html>
